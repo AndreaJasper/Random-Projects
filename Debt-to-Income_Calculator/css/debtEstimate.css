@@ -1,0 +1,86 @@
+body {
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	font-weight: 700;
+	text-align: center;
+}
+
+input {
+	height: 25px;
+	padding-left: 5px;
+	display: block;
+	position: relative;
+}
+
+label {
+	display: block;
+	padding-top: .5em;
+	padding-bottom: .3em;
+}
+
+input[type="button"] {
+    margin-top: 10px;
+    width: 100px;
+    font-weight: 700;
+    background: #CADDCB;
+    border: 1px solid #666;
+}
+
+input[type="button"]:hover {
+	background: #AABFAB;
+	
+}
+
+#calculator {
+	border: 1px solid #666;
+}
+
+.fields {
+	margin: 20px 0;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+}
+
+.calculator {
+	border: 1px solid #bfbebe;
+}
+
+.slidecontainer {
+	padding: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
